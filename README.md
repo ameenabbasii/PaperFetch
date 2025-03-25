@@ -15,7 +15,7 @@ This is a python script which, when given the subject-code & variant, installs a
 Step 1: Clone the Repository
 ```
 git clone https://github.com/ameenabbasii/PaperFetch.git
-cd cie_pastpaperdownloader
+cd PaperFetch
 ```
 Step 2: Convert to Executable (.exe)
    
