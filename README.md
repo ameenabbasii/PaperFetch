@@ -1,4 +1,4 @@
-# cie_pastpaperdownloader
+# ***PaperFetch***
 This is a python script which, when given the subject-code & variant, installs all the relevant past-papers for that subject and stores in a specified file.
 
 ⸻
