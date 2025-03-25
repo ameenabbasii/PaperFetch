@@ -12,19 +12,18 @@ This is a python script which, when given the subject-code & variant, installs a
 
 2. **Installation**
 
-Step 1: Clone the Repository
+Clone the Repository
 ```
 git clone https://github.com/ameenabbasii/PaperFetch.git
 cd PaperFetch
 ```
-Step 2: Convert to Executable (.exe)
    
-For Windows users, you can create an executable:
-```
-pyinstaller --onefile --windowed --icon=icon.ico pdf_downloader.py
-```
-
 To install dependencies from this file, run:
 ```
 pip install -r requirements.txt
+```
+
+Once installed, run: 
+```
+python pdf_downloader.py
 ```
