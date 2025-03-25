@@ -1,5 +1,5 @@
 # cie_pastpaperdownloader
-This repository contains a Python script that downloads past papers and marking schemes from PapaCambridge, merges them into a single PDF, and allows users to choose where to save the files.
+This is a python script which, when given the subject-code & variant, installs all the relevant past-papers for that subject and stores in a specified file.
 
 ⸻
 
@@ -14,7 +14,7 @@ This repository contains a Python script that downloads past papers and marking 
 
 Step 1: Clone the Repository
 ```
-git clone https://github.com/ameenabbasii/cie_pastpaperdownloader.git
+git clone https://github.com/ameenabbasii/PaperFetch.git
 cd cie_pastpaperdownloader
 ```
 Step 2: Convert to Executable (.exe)
