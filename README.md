@@ -4,10 +4,10 @@ This is a python script which, when given the subject-code & variant, installs a
 ⸻
 
 1. **Features**
-	•	Downloads past papers and marking schemes for CAIE exams \n
-	•	Merges question papers and marking schemes into a single PDF \n
-	•	Allows users to choose directories for saving files \n
-	•	Handles network errors and missing files gracefully \n
+	•	Downloads past papers and marking schemes for CAIE exams \
+	•	Merges question papers and marking schemes into a single PDF \
+	•	Allows users to choose directories for saving files \
+	•	Handles network errors and missing files gracefully \
 	•	Converts into an executable.exe for easy use
 
 2. **Installation**
