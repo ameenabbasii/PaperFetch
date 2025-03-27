@@ -9,6 +9,8 @@ root = tk.Tk()
 root.withdraw()
 
 
+
+
 folder_pdf_qp = filedialog.askdirectory(title="Select folder for Question Papers ")
 folder_pdf_ms = filedialog.askdirectory(title="Select folder for Marking Schemes")
 folder_pdf_pp = filedialog.askdirectory(title="Select folder for Merged PDFs")
@@ -19,6 +21,7 @@ if not folder_pdf_qp or not folder_pdf_ms or not folder_pdf_pp:
 try:
     user_input_subject = int(input("Enter a subject code: "))
     user_input_variant = int(input("Enter paper and variant (e.g., 12): "))
+    
 except ValueError:
     sys.exit("Invalid input. Please enter valid numeric values.")
 
@@ -40,7 +43,7 @@ def merge_pdfs(pdf1_path, pdf2_path, output_path):
         print(f"PDFs merged successfully: {output_path}")
 
     except Exception as e:
-        print(f"Error merging PDFs: {e}")
+        print(f"Error merging PDFs:{e}")
 
 for i in range(10, 24):
     try:
@@ -75,4 +78,4 @@ for i in range(10, 24):
     merge_pdfs(qp_path, ms_path, output_path)
 
 print("Download and merge completed successfully.")
-input("Press Enter to exit...")
+input("Press ENTER to exit.")
