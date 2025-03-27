@@ -3,7 +3,7 @@ This is a python script which, when given the subject-code & variant, installs a
 
 ⸻
 
-1. **Features**
+1. **Features** \
 	•	Downloads past papers and marking schemes for CAIE exams \
 	•	Merges question papers and marking schemes into a single PDF \
 	•	Allows users to choose directories for saving files \
